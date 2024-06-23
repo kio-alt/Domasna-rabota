@@ -1,0 +1,154 @@
+#slika{
+    margin :10px;
+    border: solid;
+    color: indianred;
+
+}
+#jas{
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+
+
+}
+.links{
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:solid;
+    color: indianred;
+    background: radial-gradient(circle, #ff7e5f, #feb47b);
+    font-size: 20px;
+}
+a{
+    color: indianred;
+    text-decoration: none;
+
+}
+a:hover{
+    color: orangered;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: indianred;
+    border-top: solid;
+    border-color: indianred;
+    background: radial-gradient(circle, #ff7e5f, #feb47b)
+}
+
+footer .links nav div{
+    padding:6px;
+}
+header .links nav div {
+    margin: 5px;
+}
+
+.text {
+    white-space: pre-wrap;
+    background-color: lightgray;
+    padding: 20px;
+    border: 2px solid indianred;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    font-style: oblique;
+
+}
+
+.hobby {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: solid indianred;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.hobby .description {
+    flex: 1;
+    padding-right: 20px;
+}
+.hobby .image img {
+    max-width: 200px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.hobby h3 {
+    color: #ff7e5f;
+    font-size: 25px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #ff7e5f;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+.contact-info strong {
+    font-weight: bold;
+}
+.map {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.map iframe {
+    border-radius: 5px;
+}
+.contact-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: indianred;
+    border-color: indianred;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-button:hover{
+    background-color: #feb47b;
+}
+
+.trip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.trip-item {
+    width: 260px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid indianred;
+    border-radius: 5px;
+    background-color: #fff;
+    color: indianred;
+}
+.trip-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.trip-item p {
+    margin: 0;
+    font-size: 16px;
+}
